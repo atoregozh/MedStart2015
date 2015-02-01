@@ -35,7 +35,7 @@ def twitterreq(url, method, parameters):
 	response = opener.open(url, encoded_post_data)
 	return response
 def fetchsamples():
-	url = "https://api.twitter.com/1.1/search/tweets.json?q=depression"
+	url = "https://api.twitter.com/1.1/search/tweets.json?q=depression&lang=en&geocode=42.350018,-71.063387,1km&result_type=popular"
 	parameters = []
 	response = twitterreq(url, "GET", parameters)
 	for line in response:

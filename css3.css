@@ -1,0 +1,58 @@
+body {
+background: url("http://www.zastavki.com/pictures/1600x1200/2009/Creative_Wallpaper_Relax_by_the_water_018549_.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+strong {
+	font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.5em;
+	font-weight: 400;	
+}
+
+strong {
+  font-weight: 400;
+}
+
+.tilepurple{  
+  width: 100%;
+	display: inline-block;
+	box-sizing: border-box;		
+	padding: 20px;
+	margin-bottom: 30px;
+  }
+  .titlered {
+  	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;		
+	padding: 20px;
+	margin-bottom: 30px;
+  }
+   .titleorange {
+  	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;		
+	padding: 20px;
+	margin-bottom: 30px;
+  }
+a:link, a:visited {
+    display: block;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #FFFFFF;
+}
+a:hover, a:active {
+    border-style: solid;
+}

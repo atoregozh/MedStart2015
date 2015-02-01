@@ -1,0 +1,30 @@
+.form-group1 { 
+width: 90%;
+}
+
+#usr {
+width: 100%;
+}
+
+.form-group2 {
+width: 0%;
+}
+
+.row {
+width: 100%;
+}
+
+body {
+background: url("http://www.zastavki.com/pictures/1600x1200/2009/Creative_Wallpaper_Relax_by_the_water_018549_.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h2 {
+	color: #000000;
+}
